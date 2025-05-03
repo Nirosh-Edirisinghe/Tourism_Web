@@ -6,12 +6,15 @@
    <title>Document</title>
    
   
-
+   
    <link rel="stylesheet" href="https://cdn.jsdelivr net/npm/swiper@11/swiper-bundle.min.css"/>
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
    <link rel="stylesheet" href="css/style.css">
+   
+
+   
 
 
 
@@ -27,13 +30,76 @@
          <a href="home.php">Home</a>
          <a href="about.php">about</a>
          <a href="package.php">packages</a>
-         <a href="contat.php">contact</a>
+         <a href="contact.php">contact</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
    </section>
 
+   <section class="home">
+
+      <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide"  style="background:url(images/home2.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover,travel</span>
+               <h3>travel arround the world</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide"  style="background:url(images/home3.jpg) ">
+            <div class="content">
+               <span>explore, discover,travel</span>
+               <h3>discover the new place</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide"  style="background:url(images/home4.jpg)">
+            <div class="content">
+               <span>explore, discover,travel</span>
+               <h3>make your tour worthwhile</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      </div>
+   </section>
+
+   <section class="services">
+      <h1 class="heading-title">our services</h1>
+
+      <div class="box-container">
+         <div class="box">
+            <h3>adventure</h3>
+         </div>
+
+         <div class="box">
+            <h3>tour guides</h3>
+         </div>
+
+         <div class="box">
+            <h3>trekking</h3>
+         </div>
+
+         <div class="box">
+            <h3>camp fire</h3>
+         </div>
+
+         <div class="box">
+            <h3>off road</h3>
+         </div>
+
+         <div class="box">
+            <h3>camping</h3>
+         </div>
+      </div>
+   </section>
    
 
 
@@ -85,8 +151,10 @@
    </section>
 
 
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
    <script src="script.js  "></script>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
    
 </body>

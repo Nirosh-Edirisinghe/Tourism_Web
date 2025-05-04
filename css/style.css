@@ -77,6 +77,8 @@ section{
    color: var(--black);
 }
 
+/* header section  */
+
 .header{
    position: sticky;
    top: 0; left:0; right: 0;
@@ -113,6 +115,8 @@ section{
  }
 
 
+/* home section */
+
 .home{
    padding: 0;
 }
@@ -136,8 +140,6 @@ section{
 .home .swiper-slide-active .content{
    display: inline-block;
 }
-
-
 
 .home .slide .content span{
    display: block;
@@ -189,7 +191,7 @@ section{
 
 
 
-
+/* servise section */
 
  .services .box-container{
    display: grid;
@@ -216,11 +218,48 @@ section{
 
 
 
+/* home about section */
+
+.home-about{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.home-about .image{
+   flex:1 1 30rem ;
+}
+
+.home-about .image img{
+   width: 100%;
+   height: 50rem;
+   object-fit: cover;
+   
+}
+
+.home-about .content{
+   flex: 1 1 41rem;
+   padding: 3rem;
+   background: var(--light-bg);
+}
+
+.home-about .content h3{
+   font-size: 3rem;
+   color: var(--black);
+}
+
+.home-about .content p{
+   font-size: 1.5rem;
+   padding: 1rem 0;
+   line-height: 2;
+   color: var(--black);
+}
 
 
 
 
 
+/* footer section */
 
 .footer{
    background-image: url(../images/footer.jpg) ;

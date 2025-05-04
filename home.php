@@ -95,7 +95,21 @@
          </div>
       </div>
    </section>
-   
+
+   <section class="home-about">
+
+      <div class="image">
+         <img src="images/homeabout3.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>about us</h3>
+         <p>We are passionate about creating unforgettable travel experiences. Our goal is to help you explore the world with ease, comfort, and excitement. Whether it's adventure, relaxation, or cultural discovery, we offer trusted and personalized travel services to make your journey truly special.</p>
+         <a href="about.php" class="btn">read more</a>
+      </div>
+
+   </section>
+
 
 
 

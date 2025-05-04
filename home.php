@@ -111,13 +111,13 @@
    </section>
 
    <section class="home-package">
-      <h1 class="heading">our packages</h1>
+      <h1 class="heading-title">our packages</h1>
 
       <div class="box-container">
 
          <div class="box">
             <div class="image">
-               <img src="" alt="">
+               <img src="images/adventure.jpg" alt="">
             </div>
             <div class="content">
                <h3>adventure & tour</h3>
@@ -128,7 +128,7 @@
 
          <div class="box">
             <div class="image">
-               <img src="" alt="">
+               <img src="images/adventure.jpg" alt="">
             </div>
             <div class="content">
                <h3>adventure & tour</h3>
@@ -139,7 +139,7 @@
 
          <div class="box">
             <div class="image">
-               <img src="" alt="">
+               <img src="images/adventure.jpg" alt="">
             </div>
             <div class="content">
                <h3>adventure & tour</h3>
@@ -155,12 +155,13 @@
       </div>
    </section>
 
-
-
-
-
-
-
+   <section id="offer">
+      <div class="content">
+         <h3>upto 50% off</h3>
+         <p>Discover amazing travel offers that make your journey more affordable and enjoyable. From discounted tour packages to special hotel deals, we bring you the best prices for unforgettable experiences</p>
+         <a href="book.php" class="btn">book now</a>
+      </div>
+   </section>
 
    <section class="footer">
       <div class="box-container">

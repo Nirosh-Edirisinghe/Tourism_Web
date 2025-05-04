@@ -52,6 +52,22 @@ section{
    }
    
 }
+.heading{
+   background-size: cover !important;
+   background-position:center !important;
+   padding-top: 10rem;
+   padding-bottom: 15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heading h1{
+   font-size: 10rem;
+   text-transform: uppercase;
+   color: var(--white);
+   text-shadow: var(--text-shadow);
+}
 
 .btn{
    display: inline-block;
@@ -114,7 +130,7 @@ section{
    display: none;
  }
 
-
+ 
 /* home section */
 
 .home{
@@ -256,16 +272,86 @@ section{
 }
 
 
+
 /* home packges */
+.home-package{
+   background: var(
+      --light-bg
+   );
+}
+
 .home-package .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap: 2rem;
 }
 
-.home-package .box-container .content h3{
-   color: red;
+.home-package .box-container .box {
+   border: var(--border);
+   box-shadow: var(--box-shadow);
+   background: var(--white);
 }
+
+.home-package .box-container .box .image{
+   height: 25rem;
+   overflow: hidden;
+}
+
+.home-package .box-container .box .image img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.home-package .box-container .box .content{
+   padding: 2rem;
+   text-align: center;
+}
+
+.home-package .box-container .box .content h3{
+   font-size: 2.5rem;
+   color: var(--black);
+}
+
+.home-package .box-container .box .content p{
+   font-size: 1.5rem;
+   color: var(--light-black);
+   line-height: 2;
+   padding: 1rem 0;
+}
+
+.home-package .load-more{
+   text-align: center;
+   margin: 2rem;
+}
+
+/* home offer section */
+
+#offer{
+   text-align: center;
+}
+
+#offer .content{
+   max-width: 70rem;
+   margin: 0 auto;
+}
+
+#offer .content h3{
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   color: var(--black);
+}
+
+#offer .content p{
+   font-size: 1.5rem;
+   color: var(--light-black);
+   line-height: 2;
+   padding: 1rem 0;
+}
+
+
+
+
+
 
 
 

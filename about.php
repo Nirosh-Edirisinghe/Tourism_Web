@@ -7,11 +7,15 @@
    
   
 
-   <link rel="stylesheet" href="https://cdn.jsdelivr net/npm/swiper@11/swiper-bundle.min.css"/>
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style1.css">
 
 
 
@@ -34,17 +38,130 @@
 
    </section>
 
-   <div class="heading">
+   <div class="heading" style="background:url(images/abouthead1.jpg) no-repeat">
       <h1>about us</h1>
    </div>
 
+   <section id="about">
+
+      <div class="image">
+         <img src="images/about.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p>At our travel service, we prioritize your comfort, safety, and satisfaction above all. With a dedicated team of travel experts and years of experience, we carefully craft every journey to ensure it meets your expectations. </p> <br>
+         <p>We also offer 24/7 customer support, trusted partnerships with hotels and guides, and the best prices to make your trip smooth and worry-free. From booking to your return, we're with you every step of the way—making your travel experience truly unforgettable.</p>
+
+         <div class="icon-container">
+            <div class="icons">
+               <i class="fas fa-map"></i>
+               <span>top destinations</span>
+            </div>
+
+            <div class="icons">
+               <i class="fas fa-hand-holding-usd"></i>
+               <span>affordable price</span>
+            </div>
+
+            <div class="icons">
+               <i class="fas fa-headset"></i>
+               <span>24/7 service</span>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="reviews">
+      <h1 class="heading-title">client reviews</h1>
+      <div class="swiper reviews-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>This site made booking my vacation so easy and stress-free. The support and recommendations were perfect for trip.</p>
+               <h3>john deo</h3>
+               <span>traveler</span>
+               <img src="images/john.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>I booked a mountain trek through this site, and it was incredible. Everything was well-organized and safe.</p>
+               <h3>Amit Patel</h3>
+               <span>Adventure Seeker</span>
+               <img src="images/amit.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>The camping packages were affordable and well-planned. Loved the beautiful locations and peaceful vibes!</p>
+               <h3>Luna Kim</h3>
+               <span>Camper</span>
+               <img src="images/luna.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>From hotel to local tours, everything was booked in one place. The experience was smooth and enjoyable.</p>
+               <h3>David Lee</h3>
+               <span>traveler</span>
+               <img src="images/david.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>Had the best time doing water sports through this service. Will definitely use it again for my next trip.</p>
+               <h3>Emily Brown</h3>
+               <span>Adventure Lover</span>
+               <img src="images/emily.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <p>The campsite was clean, safe, and well-equipped. Booking through this website was quick and easy.</p>
+               <h3>Ravi Fernando</h3>
+               <span>Camping Enthusiast</span>
+               <img src="images/ravi.jpg" alt="">
+            </div>
+
+         </div>
+         <div class="swiper-pagination"> ddd</div>
+      </div>
+   </section>
    
-
-
-
-
-
-
 
    <section class="footer">
       <div class="box-container">
@@ -91,7 +208,6 @@
 
    
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
    <script src="script.js  "></script>
 
    

@@ -256,6 +256,16 @@ section{
 }
 
 
+/* home packges */
+.home-package .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 2rem;
+}
+
+.home-package .box-container .content h3{
+   color: red;
+}
 
 
 

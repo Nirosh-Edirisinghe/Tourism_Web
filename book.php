@@ -7,12 +7,8 @@
    
   
    
-   <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
    <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -35,12 +31,7 @@
    <section id="booking">
 
       <h1 class="heading-title">book your trip!</h1>
-      <?php
-         if (isset($_GET['message'])) {
-            echo "<p style='color: green;'>" . htmlspecialchars($_GET['message']) . "</p>";
-         }
-         ?>
-
+     
       <form action="book_form.php" method="post" class="book-form">
 
       <div class="flex">
@@ -90,8 +81,6 @@
          
    </section>
 
-
-
    <section class="footer">
       <div class="box-container">
          <div class="box">
@@ -134,8 +123,6 @@
 
    </section>
 
-
-   
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
    <script src="script.js  "></script>

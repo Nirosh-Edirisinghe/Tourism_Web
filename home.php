@@ -24,7 +24,7 @@
       <nav class="navbar">
          <a href="home.php">Home</a>
          <a href="about.php">about</a>
-         <a href="package.php">packages</a>
+         <a href="services.php">services</a>
          <a href="contact.php">contact</a>
       </nav>
 
@@ -41,7 +41,7 @@
             <div class="content">
                <span>explore, discover,travel</span>
                <h3>travel arround the world</h3>
-               <a href="package.php" class="btn">discover more</a>
+               <a href="services.php" class="btn">discover more</a>
             </div>
          </div>
 
@@ -49,7 +49,7 @@
             <div class="content">
                <span>explore, discover,travel</span>
                <h3>discover the new place</h3>
-               <a href="package.php" class="btn">discover more</a>
+               <a href="services.php" class="btn">discover more</a>
             </div>
          </div>
 
@@ -57,7 +57,7 @@
             <div class="content">
                <span>explore, discover,travel</span>
                <h3>make your tour worthwhile</h3>
-               <a href="package.php" class="btn">discover more</a>
+               <a href="services.php" class="btn">discover more</a>
             </div>
          </div>
       </div>
@@ -94,7 +94,7 @@
             <h3>camping</h3>
          </div>
       </div>
-   </section>
+   </section> 
 
    <section class="home-about">
 
@@ -128,22 +128,22 @@
 
          <div class="box">
             <div class="image">
-               <img src="images/adventure.jpg" alt="">
+               <img src="images/camp.jpg" alt="">
             </div>
             <div class="content">
-               <h3>adventure & tour</h3>
-               <p>Experience thrilling adventures and unforgettable tours tailored just for you.</p>
+               <h3>Camping & Hiking</h3>
+               <p>Enjoy peaceful nights under the stars and scenic hikes through mountains, forests, and trails.</p>
                <a href="book.php" class="btn">book now</a>
             </div>
          </div>
 
          <div class="box">
             <div class="image">
-               <img src="images/adventure.jpg" alt="">
+               <img src="images/city.jpg" alt="">
             </div>
             <div class="content">
-               <h3>adventure & tour</h3>
-               <p>Experience thrilling adventures and unforgettable tours tailored just for you.</p>
+               <h3>City Sightseeing</h3>
+               <p>Discover the culture, history, and landmarks of top cities with expert-led sightseeing trips.</p>
                <a href="book.php" class="btn">book now</a>
             </div>
          </div>
@@ -151,7 +151,7 @@
       </div>
 
       <div class="load-more">
-         <a href="package.php" class="btn">load more</a>
+         <a href="services.php" class="btn">load more</a>
       </div>
    </section>
 

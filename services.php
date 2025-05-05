@@ -26,7 +26,7 @@
       <nav class="navbar">
          <a href="home.php">Home</a>
          <a href="about.php">about</a>
-         <a href="package.php">packages</a>
+         <a href="services.php">services</a>
          <a href="contact.php">contact</a>
       </nav>
 

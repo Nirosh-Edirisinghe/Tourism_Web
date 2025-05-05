@@ -291,6 +291,9 @@ section{
    box-shadow: var(--box-shadow);
    background: var(--white);
 }
+.home-package .box-container .box:hover .image img{
+   transform: scale(1.1);
+}
 
 .home-package .box-container .box .image{
    height: 25rem;
@@ -301,7 +304,11 @@ section{
    height: 100%;
    width: 100%;
    object-fit: cover;
+   transition: .2s linear;
 }
+
+
+
 .home-package .box-container .box .content{
    padding: 2rem;
    text-align: center;
@@ -627,6 +634,41 @@ section{
    height: 100%;
 }
 
+
+/* booking section */
+
+#booking .book-form{
+   padding: 2rem;
+   background: var(--light-bg);
+}
+
+#booking .book-form .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+#booking .book-form .flex .input-box{
+   flex: 1 1 41rem;
+}
+
+#booking .book-form .flex .input-box input{
+   width: 100%;
+   padding: 1.2rem 1.4rem;
+   font-size: 1.6rem;
+   color: var(--light-black);
+   text-transform: none;
+   margin-top: 1.5rem;
+   
+}
+#booking .book-form .flex .input-box span{
+   font-size: 2rem;
+   color: var(--light-black);
+}
+
+#booking .book-form .btn{
+   margin-top: 2rem;
+}
 
 
 /* footer section */

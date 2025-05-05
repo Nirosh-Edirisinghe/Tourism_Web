@@ -34,9 +34,164 @@
 
    </section>
 
-   <div class="heading">
-      <h1>about us</h1>
+   <div class="heading" style="background:url(images/service.jpg) no-repeat">
+      <h1>our services</h1>
    </div>
+
+   <section id="packages">
+
+      <div class="heading-title">top destinations</div>
+      <div class="box-container">
+
+         <div class="box">
+            <div class="image">
+               <img src="images/adventure.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>adventure & tours</h3>
+               <p>Explore thrilling adventures and guided tours across stunning landscapes and natural wonders.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/camp.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Camping & Hiking</h3>
+               <p>Enjoy peaceful nights under the stars and scenic hikes through mountains, forests, and trails.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/city.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>City Sightseeing</h3>
+               <p>Discover the culture, history, and landmarks of top cities with expert-led sightseeing trips.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/beachholiday.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Beach Holidays</h3>
+               <p>Relax on golden beaches with crystal-clear waters, perfect for sunbathing and water activities.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/safari.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Wildlife Safaris</h3>
+               <p>Get close to nature and experience incredible wildlife in their natural habitats safely and comfortably.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/culture.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Cultural Experiences</h3>
+               <p>Immerse yourself in local traditions, cuisine, music, and festivals for an unforgettable journey.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/cruise.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Cruise Packages</h3>
+               <p>Sail through scenic oceans and rivers with luxurious amenities and exciting onboard activities.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/huneymoon.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Honeymoon Trips</h3>
+               <p>Create unforgettable memories with romantic getaways designed for newlyweds and couples.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/roadtrip.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Road Trips</h3>
+               <p>Hit the road and explore beautiful routes, hidden spots, and local gems at your own pace.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/ski.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Ski & Snow Tours</h3>
+               <p>Enjoy skiing, snowboarding, and winter fun in the best snowy destinations around the world.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/desartsafari.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Desert Safari</h3>
+               <p>Experience thrilling dune rides, camel treks, and traditional desert camp evenings.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="images/welness.jpg" alt="">
+            </div>
+
+            <div class="content">
+               <h3>Wellness Retreats</h3>
+               <p>Relax and recharge with spa treatments, yoga sessions, and peaceful natural surroundings.</p>
+               <a href="book.php" class="btn">book now</a>
+            </div>
+         </div>
+
+      </div>
+      <div class="load-more">
+         <span class="btn">load more</span>
+      </div>
+   </section>
 
    
 

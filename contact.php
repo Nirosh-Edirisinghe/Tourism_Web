@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Traventora</title>
    
   
 
@@ -21,7 +21,7 @@
 <body>
    <section class="header">
 
-      <a href="home.php" class="logo">travel.</a>
+      <a href="home.php" class="logo">Traventora</a>
 
       <nav class="navbar">
          <a href="home.php">Home</a>
